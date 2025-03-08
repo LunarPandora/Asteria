@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Neuton:200,300,regular,italic,700,800);
+@import url(https://fonts.googleapis.com/css?family=Delius:regular);
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+@import "tailwindcss";
+
+@theme {
+    --color-skyblue: #719ff0;
+    --color-nebula: #C2D8F8;
+    --color-moonlit: #A0D8EF;
+    --color-pearl: #E0E9F4;
+    --color-blush: #FFD9E8;
+    --color-starlight: #D8C1FF;
+    --color-neutron: #ba81fc;
+}
+
+body{
+    font-family: 'Outfit', Arial, Helvetica, sans-serif;
+}
+
+.title{
+    font-family: 'Neuton', 'Times New Roman', sans-serif;
+}
+
+.dialog{
+    font-family: 'Delius', Arial, Helvetica, sans-serif;
+}
