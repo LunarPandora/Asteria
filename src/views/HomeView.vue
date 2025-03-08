@@ -19,7 +19,7 @@
 
 <template>
   <div class="flex flex-col gap-3 items-center justify-center w-full h-[100vh] bg-nebula p-5">
-    <div class="flex w-full bg-white rounded-xl overflow-hidden items-center">
+    <div class="flex w-full h-[30vh] bg-white rounded-xl overflow-hidden items-center">
       <div class="flex flex-col w-full p-5">
         <p class="title text-3xl font-semibold text-skyblue">
           Hello, I'm 
@@ -34,7 +34,9 @@
       </div>
     </div>
     
-    <RouterView></RouterView>
+    <div class="h-[70vh] w-full">
+      <RouterView></RouterView>
+    </div>
 
     <img src="@/assets/bot/normal.png" class="absolute right-0 w-1/4 transition-all duration-500 ease-in" :class="[isChatMode ? '-bottom-[15em]' : 'bottom-0']">
   </div>
